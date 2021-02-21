@@ -1,0 +1,582 @@
+* {
+    box-sizing: border-box;
+}
+.black{
+    background-color: black;
+    width: 100%;
+    height: 1200px;
+    }
+
+.box3{
+    color: white;
+    font-family: "poppinsm";
+    font-size: 18px;
+}
+
+.heart  {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/1guli.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    position: absolute; 
+    animation-name: heart;   
+    animation-duration: 3s;
+	animation-delay: 1s;
+	animation-timing-function: linear;
+    top: 0px;
+    left: 20;
+    animation-iteration-count: infinite; 
+	animation-fill-mode: backwards; 
+}
+
+
+.box1 {
+    height:90px;
+    width:90px;  
+    background-color:white;
+    position: absolute;
+    top:180px;
+    left:200px;
+    animation-name: box1;   
+    animation-duration: 6s;
+	animation-delay:5s;
+	animation-timing-function: linear;
+    animation-iteration-count: infinite;  
+}
+
+.box2 {
+    height: 210px;
+    width: 210px;
+    border: 70px solid white;
+    position: absolute;
+    top:110px;
+    left: 350px;
+    }
+.box3{
+    position: absolute;
+    width: 150px;
+    top: 10px;
+    left:200px; 
+}
+
+@keyframes heart{
+	0% {        
+		top: 0px;
+		left: 50px;
+	    transform: scale(0.2)} 
+	15% {
+		top:50px;
+		left: 100px;
+        transform: scale(0.7);
+	}
+    20% {
+		top:100px;
+		left:150px;
+        transform: scale(1) ;
+	}
+       30% {
+		top:200px;
+		left:200px;
+        transform: scale(1) ;
+	}
+    40% {
+		top:200px;
+		left:250px;
+        transform: scale(1) ;
+	}
+    50% {
+		top:200px;
+		left:300px;
+        transform: scale(1) ;
+	}
+    60% {
+		top:200px;
+		left:350px;
+        transform: scale(1) ;
+	}
+	70% {
+		top: 200px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    100% {
+		top: 200px;
+		left: 500px;
+        transform: scale(1) ;
+    }
+}
+ .smart{
+    animation-name: smart; 
+    color: black;  
+    font-size: 20px;
+    animation-duration:5.3s;
+	animation-delay: 6s;
+	animation-timing-function: linear;
+    position: relative;
+    top: 18px;
+    left:0px;
+    letter-spacing: 3px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;} 
+
+@keyframes smart{
+    0% {color:black;
+        font-size: 17px;
+        }
+    50%{color:rgb(161, 148, 148);
+        font-size: 10px;}
+    75%{color:rgb(109, 105, 109);
+        font-size:15px;}
+    100% {color:rgb(27, 25, 25);
+         font-size: 20px;
+        } 
+}
+
+.a1 {   
+    animation-name: a1;   
+    animation-duration: 5s;
+	animation-delay: 2s;
+	animation-timing-function: linear;
+    position: relative;
+    top: 0px;
+    left:0px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    animation-fill-mode: backwards;   
+	}
+
+@keyframes a1{
+	0% {     
+		top: 0px; 
+        left: 0px;
+	    transform: scale(1);
+	} 
+	15% {
+		top:10px;
+		left: 10px;
+        font-size: 23px ;
+	}
+    20% {
+		top:10px;
+		left:20px;
+        transform: scale(3) ;
+	}
+
+    30% {
+		top:20px;
+		left:200px;
+        transform: scale(0.5) ;
+	}
+    40% {
+		top:300px;
+		left:250px;
+        transform: scale(0.6) ;
+	}
+    50% {
+		top:300px;
+		left:300px;
+        transform: scale(0.7) ;
+	}
+     60% {
+		top:300px;
+		left:350px;
+        transform: scale(0.8) ;
+	}
+
+	70% {
+		top: 300px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    80% {
+		top: 300px;
+		left: 450px;
+        transform: scale(1) ;
+	
+	}90% {
+		top: 300px;
+		left: 500px;
+        transform: scale(1.1) ;
+	
+	} 
+    100% {
+		top: 300px;
+		left: 1000px;
+        transform: scale(1.2) ;
+    }
+} 
+   
+.a2 {  
+    animation-name: a2;   
+    animation-duration: 5s;
+	animation-delay:3s;
+	animation-timing-function: linear;
+    position: relative;
+    top: 0px;
+    left:0px;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;       
+    animation-fill-mode: backwards;  
+} 
+
+@keyframes a2 {
+	0% {     
+		top: 0px; 
+        left: 0px;
+	    transform: scale(1);
+	} 
+	15% {
+		top:10px;
+		left: 10px;
+        font-size: 23px ;
+	}
+    20% {
+		top:10px;
+		left:20px;
+        transform: scale(3) ;
+	}
+
+    30% {
+		top:20px;
+		left:200px;
+        transform: scale(0.5) ;
+	}
+    40% {
+		top:300px;
+		left:250px;
+        transform: scale(0.6) ;
+	}
+    50% {
+		top:300px;
+		left:300px;
+        transform: scale(0.7) ;
+	}
+     60% {
+		top:300px;
+		left:350px;
+        transform: scale(0.8) ;
+	}
+
+	70% {
+		top: 300px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    80% {
+		top: 300px;
+		left: 450px;
+        transform: scale(1) ;
+	
+	}90% {
+		top: 300px;
+		left: 500px;
+        transform: scale(1.1) ;
+	
+	} 
+    100% {
+		top: 300px;
+		left: 1000px;
+        transform: scale(1.2) ;
+    }} 
+.a3 {   
+        animation-name: a3;   
+        animation-duration:5s;
+        animation-delay:4s;
+        animation-timing-function: linear;
+        position: relative;
+        top: 0px;
+        left:0px;        
+        animation-iteration-count: infinite; 
+} 
+   
+@keyframes a3 {
+	0% {     
+		top: 0px; 
+        left: 0px;
+	    transform: scale(1);
+	} 
+	15% {
+		top:10px;
+		left: 10px;
+        font-size: 23px ;
+	}
+    20% {
+		top:10px;
+		left:20px;
+        transform: scale(3) ;
+	}
+
+    30% {
+		top:20px;
+		left:200px;
+        transform: scale(0.5) ;
+	}
+    40% {
+		top:300px;
+		left:250px;
+        transform: scale(0.6) ;
+	}
+    50% {
+		top:300px;
+		left:300px;
+        transform: scale(0.7) ;
+	}
+     60% {
+		top:300px;
+		left:350px;
+        transform: scale(0.8) ;
+	}
+
+	70% {
+		top: 300px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    80% {
+		top: 300px;
+		left: 450px;
+        transform: scale(1) ;
+	
+	}90% {
+		top: 300px;
+		left: 500px;
+        transform: scale(1.1) ;
+	
+	} 
+    100% {
+		top: 300px;
+		left: 1000px;
+        transform: scale(1.2) ;
+    }} 
+    
+.a4 {
+animation-name: a4;   
+animation-duration: 5s;
+animation-delay: 5s;
+animation-timing-function: linear;
+position: relative;
+animation-iteration-count: infinite;  
+top: 0px;
+left:0px;
+}
+
+@keyframes a4 {
+	0% {     
+		top: 0px; 
+        left: 0px;
+	    transform: scale(1);
+	} 
+	15% {
+		top:10px;
+		left: 10px;
+        font-size: 23px ;
+	}
+    20% {
+		top:10px;
+		left:20px;
+        transform: scale(3) ;
+	}
+
+    30% {
+		top:20px;
+		left:200px;
+        transform: scale(0.5) ;
+	}
+    40% {
+		top:300px;
+		left:250px;
+        transform: scale(0.6) ;
+	}
+    50% {
+		top:300px;
+		left:300px;
+        transform: scale(0.7) ;
+	}
+     60% {
+		top:300px;
+		left:350px;
+        transform: scale(0.8) ;
+	}
+
+	70% {
+		top: 300px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    80% {
+		top: 300px;
+		left: 450px;
+        transform: scale(1) ;
+	
+	}90% {
+		top: 300px;
+		left: 500px;
+        transform: scale(1.1) ;
+	
+	} 
+    100% {
+		top: 300px;
+		left: 1000px;
+        transform: scale(1.2) ;
+    }} 
+
+.a5 {
+animation-name: a5;   
+animation-duration: 5s;
+animation-delay:6s;
+animation-timing-function: linear;
+position: relative;
+animation-iteration-count: infinite; 
+}
+
+@keyframes a5 {
+	0% {     
+		top: 0px; 
+        left: 0px;
+	    transform: scale(1);
+	} 
+	15% {
+		top:10px;
+		left: 10px;
+        font-size: 23px ;
+	}
+    20% {
+		top:10px;
+		left:20px;
+        transform: scale(3) ;
+	}
+
+    30% {
+		top:20px;
+		left:200px;
+        transform: scale(0.5) ;
+	}
+    40% {
+		top:300px;
+		left:250px;
+        transform: scale(0.6) ;
+	}
+    50% {
+		top:300px;
+		left:300px;
+        transform: scale(0.7) ;
+	}
+     60% {
+		top:300px;
+		left:350px;
+        transform: scale(0.8) ;
+	}
+
+	70% {
+		top: 300px;
+		left: 400px;
+        transform: scale(0.9) ;
+	}  
+    80% {
+		top: 300px;
+		left: 450px;
+        transform: scale(1) ;
+	
+	}90% {
+		top: 300px;
+		left: 500px;
+        transform: scale(1.1) ;
+	
+	} 
+    100% {
+		top: 300px;
+		left: 1000px;
+        transform: scale(1.2) ;
+    }} 
+.a6 {
+    font-family: 'Poppinsexbold';
+    letter-spacing: 3px;
+    margin-top: 10px;
+    font-size: 25px;
+    animation-name: a6;   
+    animation-duration: 5s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    position: relative;
+    top: 0px;
+    left:0px;    
+    animation-iteration-count: infinite;  
+}
+
+@keyframes a6 {
+    0% {
+        top: 0px;
+        left: 0px;
+        transform: scale(1)
+    } 
+    15% {
+        top:10px;
+        left: 20px;
+        transform: scale(1) ;
+    }
+    20% {
+        top:0px;
+        left:40px;
+        transform: scale(2) ;
+    }
+    30% {
+        top:0px;
+        left:60px;
+        transform: scale(2) ;
+    }
+    40% {
+        top:300px;
+        left:250px;
+        transform: scale(2) ;
+    }
+    50% {
+        top:300px;
+        left:300px;
+        transform: scale(3) ;
+    }
+        60% {
+        top:300px;
+        left:350px;
+        transform: scale(0.8) ;
+    }
+    70% {
+        top: 300px;
+        left: 400px;
+        transform: scale(0.9) ;
+    }  
+    80% {
+        top: 300px;
+        left: 450px;
+        transform: scale(1) ;
+    }
+    90% {
+        top: 300px;
+        left: 500px;
+        transform: scale(1.1) ;
+    } 
+    100% {
+        top: 300px;
+        left: 1000px;
+        transform: scale(1.2) ;
+    }} 
+
+  @keyframes box1 { 
+    0%{
+    background-image: url(../img/logo1.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    top:180px;
+    left:200px;
+    }
+    100%{
+    background-color:white;
+}}
+  
+
+    
+ 
+
+    
