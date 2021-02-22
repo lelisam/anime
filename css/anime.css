@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {overflow-x:hidden}
+body { overflow-x:hidden;}
 
 .black{
     background-color: black;
